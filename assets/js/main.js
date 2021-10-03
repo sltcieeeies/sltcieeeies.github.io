@@ -95,7 +95,7 @@ themeButton.addEventListener('click', () => {
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
-    duration: 2000,
+    duration: 1500,
     reset: true
 });
 
@@ -104,7 +104,7 @@ sr.reveal(`.home__data, .home__img,
             .services__content, .menu__content,
             .app__data, .app__img,
             .contact__data, .contact__button,
-            .footer__content`, {
+            .footer__content, .flip, .card__glass`, {
     interval: 200
 })
 /*SCROLL HOME*/
