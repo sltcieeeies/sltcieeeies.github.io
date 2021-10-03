@@ -315,8 +315,8 @@ img {
   text-align: center;
   padding: 2.5rem;
   background: linear-gradient(130deg,
-      rgba(251, 251, 254, .6),
-      rgba(251, 251, 254, .2));
+      rgba(254, 252, 251, 0.6),
+      rgba(254, 252, 251, 0.2));
   box-shadow: inset 2px 2px 1px rgba(251, 251, 254, .3) inset -2px -2px 1px rgba(251, 251, 254, .2);
   border-radius: 1.5rem;
   backdrop-filter: blur(10px);
