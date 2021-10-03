@@ -296,7 +296,7 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-/*========== 3D Flipper ==========*/
+/*========== 3D Flipper==========*/
 @import url('https://fonts.googleapis.com/css?family=Sarala:700|Exo+2:300');
 
 *,
@@ -331,7 +331,7 @@ body{
   position: relative;
 }
 
-.card{
+.card3d{
   width: 320px;
   height: 450px;
   position: relative;
@@ -341,7 +341,7 @@ body{
   cursor: pointer;
 }
 
-.card > div{
+.card3d > div{
   position: absolute;
   width: 320px;
   height: 450px;
@@ -362,15 +362,15 @@ body{
   border-radius: 0 0 3px 34px;
 }
 
-.card:hover{
+.card3d:hover{
   transform: translateZ(-160px) rotateY( -90deg);
 }
 
-.card:hover .front{
+.card3d:hover .front{
   opacity: 0; 
 }
 
-.card:hover .right{
+.card3d:hover .right{
   opacity: 1; 
 }
 
@@ -424,7 +424,7 @@ img{
   }
 }
 
-.card:hover ~ .img-wrapper img{
+.card3d:hover ~ .img-wrapper img{
   transform: scale(0.9) translateX(77%) translateY(90%) rotateZ(80deg);
 }
 
@@ -473,11 +473,11 @@ button{
   transform-origin: right bottom;
 }
 
-.card:hover button{
+.card3d:hover button{
    transform: scale(1) skewY(0);
 }
 
-.card:not(:hover) button{
+.card3d:not(:hover) button{
 opacity: 0;
 }
 
